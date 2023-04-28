@@ -16,8 +16,7 @@ CUDA_VISIBLE_DEVICES=3 python3 main.py --nodes 4 --nr 3
 ```
 The command below assumes a single node with two GPUs.
 ```
-$ CUDA_VISIBLE_DEVICES=0 python3 main.py --nodes 2 --nr 0 &
-CUDA_VISIBLE_DEVICES=1 python3 main.py --nodes 2 --nr 1
+$ CUDA_VISIBLE_DEVICES=0 python3 main.py --nodes 2 --nr 0 & CUDA_VISIBLE_DEVICES=1 python3 main.py --nodes 2 --nr 1
 ```
 
 ## DDP Nccl(Working on RTX3090 and RTX4090)  
