@@ -1,5 +1,5 @@
 # Distributed Data Parallel Training
-ore details: https://www.notion.so/woojaejoo/Multi-GPU-3d6cc7f557404afc9e45b7bb7192f931
+More details: https://www.notion.so/woojaejoo/Multi-GPU-3d6cc7f557404afc9e45b7bb7192f931
 ## ResNet50_DDP
 This code is example for training with multiple GPUs using the ResNet50 model.
 ## SimCLR_DDP
