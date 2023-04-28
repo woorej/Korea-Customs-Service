@@ -21,7 +21,6 @@ CUDA_VISIBLE_DEVICES=1 python3 main.py --nodes 2 --nr 1
 ```
 
 ## DDP Nccl(Working on RTX3090 and RTX4090)  
-<!-- -->
 `--nproc_per_node`: Number of GPUs  
 ```
 $ python3 -m torch.distributed.run --nproc_per_node=4 main_nccl_ddp.py
