@@ -5,7 +5,8 @@ Github: https://github.com/Spijkervet/SimCLR
 python3 main.py
 ```
 
-# Distributed Training <!-- -->
+# Distributed Training
+<!--ㅇㄹ -->
 ## DDP P2P(Working on RTX3090 but Not working on RTX4090)  
 <!-- -->
 The command below assumes a single node(computer) with four GPUs.  
