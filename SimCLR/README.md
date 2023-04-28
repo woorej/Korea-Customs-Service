@@ -7,7 +7,6 @@ python3 main.py
 
 # Distributed Training
 ## DDP P2P(Working on RTX3090 but Not working on RTX4090)  
-border-bottom: none
 The command below assumes a single node(computer) with four GPUs.  
 ```
 CUDA_VISIBLE_DEVICES=0 python3 main.py --nodes 4 --nr 0
