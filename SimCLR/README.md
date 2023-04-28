@@ -9,7 +9,6 @@ python main.py --dataset CIFAR10
 
 ### Distributed Training
 - DDP P2P  
-With distributed data parallel (DDP) training:
 ```
 CUDA_VISIBLE_DEVICES=0 python main.py --nodes 2 --nr 0
 CUDA_VISIBLE_DEVICES=1 python main.py --nodes 2 --nr 1
