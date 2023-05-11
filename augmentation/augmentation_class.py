@@ -165,20 +165,13 @@ class Augmentation() :
                     cv2.imwrite(image_path_with_name, output_image) 
     
 if __name__=="__main__" :
+    
     target = "crawling"
-    if target == "crawling" :
-        augmentation_crawling = Augmentation(collections="crawling",folder_path="./미분류_검수완료" ) # 객체 생성
-        augmentation_crawling.make_augfolder_structure() # 폴더구조 만들기
-        augmentation_crawling.copy_paste_image_to_augfolder() # 만든 폴더에 이미지 복붙
-        augmentation_crawling.adjust_illuminance_image(illuminance_ratioes=[0.5, 1, 1.25]) # 조도 조절
-        augmentation_crawling.rotate_image(rotates=[0, 45, 90, 135, 180, 225, 270, 315]) # 회전
-        augmentation_crawling.mask_image(masks=[0, 3, 4]) # 마스킹 처리
-    elif target == "ai" :
-        augmentation_ai = Augmentation(collections="ai",folder_path="./미분류_검수완료" )
-        augmentation_ai.make_augfolder_structure()
-        augmentation_ai.copy_paste_image_to_augfolder()
-        augmentation_ai.adjust_illuminance_image(illuminance_ratioes=[0.5, 1, 1.25])
-        augmentation_ai.rotate_image(rotates=[0, 45, 90, 135, 180, 225, 270, 315])
-        augmentation_ai.mask_image(masks=[0, 3, 4])
-
+    
+    augmentation_crawling = Augmentation(collections=target,folder_path="./미분류_검수완료" ) # 객체 생성
+    augmentation_crawling.make_augfolder_structure() # 폴더구조 만들기
+    augmentation_crawling.copy_paste_image_to_augfolder() # 만든 폴더에 이미지 복붙
+    augmentation_crawling.adjust_illuminance_image(illuminance_ratioes=[0.5, 1, 1.25]) # 조도 조절
+    augmentation_crawling.rotate_image(rotates=[0, 45, 90, 135, 180, 225, 270, 315]) # 회전
+    augmentation_crawling.mask_image(masks=[0, 3, 4]) # 마스킹 처리
     
