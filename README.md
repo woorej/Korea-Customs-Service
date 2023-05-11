@@ -7,4 +7,4 @@ This code implementation that modifies the DDP of SimCLR to support distributed 
 # Json handler organized by Korea Customs Service
 data_loader: Data Handler from AI task organized by Korea Customs Service 
 # Augmentation
-image Augmentation for preprocessing
+augmentation: image Augmentation for preprocessing
