@@ -1,7 +1,7 @@
 # Augmentation
 augmentation_class.py: Image Augmentation (Requirements below)
-![image](https://github.com/woorej/Korea-Customs-Service/assets/5304511/ed92ac5c-6dfa-4ad3-b313-e603c432472c)
 
+<img src="https://github.com/woorej/Korea-Customs-Service/assets/5304511/ed92ac5c-6dfa-4ad3-b313-e603c432472c" width="500", height="800">
 
 
 # Make folder structure
