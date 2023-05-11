@@ -1,0 +1,49 @@
+{
+	"data": [
+		{
+			"ImageID": "NW_2022_3010146490000_100_000_000_000_000",
+			"Filename": "D:/TTA_sample/이미용품/F45_화장품용기/화장품용기_fmgt젤라또_틴트/3010146490000/100_000_000_000_000.jpg",
+			"AcquisitionMethod": "1",
+			"ProductID": "화장품용기",
+			"BrandCode": "ZZ",
+			"ProductName": "fmgt젤라또_틴트",
+			"ClassCodeKR": "F45",
+			"ClassCodeINT": "09-01",
+			"ViewPoint": 0,
+			"Angle": 0,
+			"Illuminance": "000",
+			"RegisteredNumber": "3010146490000",
+			"Packaging": "0"
+		},
+		{
+			"ImageID": "NW_2022_3010146490000_100_000_000_000_001",
+			"Filename": "D:/TTA_sample/이미용품/F45_화장품용기/화장품용기_fmgt젤라또_틴트/3010146490000/100_000_000_000_001.jpg",
+			"AcquisitionMethod": "1",
+			"ProductID": "화장품용기",
+			"BrandCode": "ZZ",
+			"ProductName": "fmgt젤라또_틴트",
+			"ClassCodeKR": "F45",
+			"ClassCodeINT": "09-01",
+			"ViewPoint": 0,
+			"Angle": 0,
+			"Illuminance": "000",
+			"RegisteredNumber": "3010146490000",
+			"Packaging": "0"
+		},
+		{
+			"ImageID": "NW_2022_3010146490000_100_000_000_000_002",
+			"Filename": "D:/TTA_sample/이미용품/F45_화장품용기/화장품용기_fmgt젤라또_틴트/3010146490000/100_000_000_000_002.jpg",
+			"AcquisitionMethod": "1",
+			"ProductID": "화장품용기",
+			"BrandCode": "ZZ",
+			"ProductName": "fmgt젤라또_틴트",
+			"ClassCodeKR": "F45",
+			"ClassCodeINT": "09-01",
+			"ViewPoint": 0,
+			"Angle": 0,
+			"Illuminance": "000",
+			"RegisteredNumber": "3010146490000",
+			"Packaging": "0"
+		}
+	]
+}

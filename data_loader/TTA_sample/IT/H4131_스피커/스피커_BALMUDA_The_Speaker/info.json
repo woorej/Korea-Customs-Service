@@ -1,0 +1,79 @@
+{
+	"data": [
+		{
+			"ImageID": "NW_2022_3011047770000_100_000_000_000_000",
+			"Filename": "D:/TTA_sample/IT/H4131_스피커/스피커_BALMUDA_The_Speaker/3011047770000/100_000_000_000_000.jpg",
+			"AcquisitionMethod": "1",
+			"ProductID": "스피커",
+			"BrandCode": "ZZ",
+			"ProductName": "BALMUDA_The_Speaker",
+			"ClassCodeKR": "H4131",
+			"ClassCodeINT": "14-01",
+			"ViewPoint": 0,
+			"Angle": 0,
+			"Illuminance": "000",
+			"RegisteredNumber": "3011047770000",
+			"Packaging": "0"
+		},
+		{
+			"ImageID": "NW_2022_3011047770000_100_000_000_000_001",
+			"Filename": "D:/TTA_sample/IT/H4131_스피커/스피커_BALMUDA_The_Speaker/3011047770000/100_000_000_000_001.jpg",
+			"AcquisitionMethod": "1",
+			"ProductID": "스피커",
+			"BrandCode": "ZZ",
+			"ProductName": "BALMUDA_The_Speaker",
+			"ClassCodeKR": "H4131",
+			"ClassCodeINT": "14-01",
+			"ViewPoint": 0,
+			"Angle": 0,
+			"Illuminance": "000",
+			"RegisteredNumber": "3011047770000",
+			"Packaging": "0"
+		},
+		{
+			"ImageID": "NW_2022_3011047770000_100_000_000_180_000",
+			"Filename": "D:/TTA_sample/IT/H4131_스피커/스피커_BALMUDA_The_Speaker/3011047770000/100_000_000_180_000.jpg",
+			"AcquisitionMethod": "1",
+			"ProductID": "스피커",
+			"BrandCode": "ZZ",
+			"ProductName": "BALMUDA_The_Speaker",
+			"ClassCodeKR": "H4131",
+			"ClassCodeINT": "14-01",
+			"ViewPoint": 180,
+			"Angle": 0,
+			"Illuminance": "000",
+			"RegisteredNumber": "3011047770000",
+			"Packaging": "0"
+		},
+		{
+			"ImageID": "NW_2022_3011047770000_100_000_000_285_000",
+			"Filename": "D:/TTA_sample/IT/H4131_스피커/스피커_BALMUDA_The_Speaker/3011047770000/100_000_000_285_000.jpg",
+			"AcquisitionMethod": "1",
+			"ProductID": "스피커",
+			"BrandCode": "ZZ",
+			"ProductName": "BALMUDA_The_Speaker",
+			"ClassCodeKR": "H4131",
+			"ClassCodeINT": "14-01",
+			"ViewPoint": 285,
+			"Angle": 0,
+			"Illuminance": "000",
+			"RegisteredNumber": "3011047770000",
+			"Packaging": "0"
+		},
+		{
+			"ImageID": "NW_2022_3011047770000_100_000_045_060_000",
+			"Filename": "D:/TTA_sample/IT/H4131_스피커/스피커_BALMUDA_The_Speaker/3011047770000/100_000_045_060_000.jpg",
+			"AcquisitionMethod": "1",
+			"ProductID": "스피커",
+			"BrandCode": "ZZ",
+			"ProductName": "BALMUDA_The_Speaker",
+			"ClassCodeKR": "H4131",
+			"ClassCodeINT": "14-01",
+			"ViewPoint": 60,
+			"Angle": 45,
+			"Illuminance": "000",
+			"RegisteredNumber": "3011047770000",
+			"Packaging": "0"
+		}
+	]
+}

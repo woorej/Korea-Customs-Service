@@ -1,0 +1,34 @@
+{
+	"data": [
+		{
+			"ImageID": "NW_2022_3000000006947_100_000_000_000_000",
+			"Filename": "D:/TTA_sample/이미용품/F45_화장품용기/화장품용기_DIY화장품_쿠션용기/3000000006947/100_000_000_000_000.jpg",
+			"AcquisitionMethod": "1",
+			"ProductID": "화장품용기",
+			"BrandCode": "ZZ",
+			"ProductName": "DIY화장품_쿠션용기",
+			"ClassCodeKR": "F45",
+			"ClassCodeINT": "09-01",
+			"ViewPoint": 0,
+			"Angle": 0,
+			"Illuminance": "000",
+			"RegisteredNumber": "3000000006947",
+			"Packaging": "0"
+		},
+		{
+			"ImageID": "NW_2022_3000000006947_100_000_045_000_000",
+			"Filename": "D:/TTA_sample/이미용품/F45_화장품용기/화장품용기_DIY화장품_쿠션용기/3000000006947/100_000_045_000_000.jpg",
+			"AcquisitionMethod": "1",
+			"ProductID": "화장품용기",
+			"BrandCode": "ZZ",
+			"ProductName": "DIY화장품_쿠션용기",
+			"ClassCodeKR": "F45",
+			"ClassCodeINT": "09-01",
+			"ViewPoint": 0,
+			"Angle": 45,
+			"Illuminance": "000",
+			"RegisteredNumber": "3000000006947",
+			"Packaging": "0"
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"data": [
+		{
+			"ImageID": "NW_2022_3000000005657_100_000_000_000_000",
+			"Filename": "D:/TTA_sample/IT/H4141_헤드폰/헤드폰_Awei_A790BL/3000000005657/100_000_000_000_000.jpg",
+			"AcquisitionMethod": "1",
+			"ProductID": "헤드폰",
+			"BrandCode": "ZZ",
+			"ProductName": "Awei_A790BL",
+			"ClassCodeKR": "H4141",
+			"ClassCodeINT": "14-01",
+			"ViewPoint": 0,
+			"Angle": 0,
+			"Illuminance": "000",
+			"RegisteredNumber": "3000000005657",
+			"Packaging": "0"
+		},
+		{
+			"ImageID": "NW_2022_3000000005657_100_000_000_090_000",
+			"Filename": "D:/TTA_sample/IT/H4141_헤드폰/헤드폰_Awei_A790BL/3000000005657/100_000_000_090_000.jpg",
+			"AcquisitionMethod": "1",
+			"ProductID": "헤드폰",
+			"BrandCode": "ZZ",
+			"ProductName": "Awei_A790BL",
+			"ClassCodeKR": "H4141",
+			"ClassCodeINT": "14-01",
+			"ViewPoint": 90,
+			"Angle": 0,
+			"Illuminance": "000",
+			"RegisteredNumber": "3000000005657",
+			"Packaging": "0"
+		},
+		{
+			"ImageID": "NW_2022_3000000005657_100_000_045_060_000",
+			"Filename": "D:/TTA_sample/IT/H4141_헤드폰/헤드폰_Awei_A790BL/3000000005657/100_000_045_060_000.jpg",
+			"AcquisitionMethod": "1",
+			"ProductID": "헤드폰",
+			"BrandCode": "ZZ",
+			"ProductName": "Awei_A790BL",
+			"ClassCodeKR": "H4141",
+			"ClassCodeINT": "14-01",
+			"ViewPoint": 60,
+			"Angle": 45,
+			"Illuminance": "000",
+			"RegisteredNumber": "3000000005657",
+			"Packaging": "0"
+		}
+	]
+}

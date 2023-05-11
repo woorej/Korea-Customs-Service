@@ -1,0 +1,19 @@
+{
+	"data": [
+		{
+			"ImageID": "NW_2022_3010237380000_100_000_000_000_000",
+			"Filename": "D:/TTA_sample/이미용품/F45_화장품용기/화장품용기_Glow_Recipe_파인애플C_브라이트_세럼/3010237380000/100_000_000_000_000.jpg",
+			"AcquisitionMethod": "1",
+			"ProductID": "화장품용기",
+			"BrandCode": "ZZ",
+			"ProductName": "Glow_Recipe_파인애플C_브라이트_세럼",
+			"ClassCodeKR": "F45",
+			"ClassCodeINT": "09-01",
+			"ViewPoint": 0,
+			"Angle": 0,
+			"Illuminance": "000",
+			"RegisteredNumber": "3010237380000",
+			"Packaging": "0"
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"data": [
+		{
+			"ImageID": "NW_2022_3010751430000_100_000_000_000_000",
+			"Filename": "D:/TTA_sample/IT/H4131_스피커/스피커_AXIS_C1410_Network_Mini_Speaker/3010751430000/100_000_000_000_000.jpg",
+			"AcquisitionMethod": "1",
+			"ProductID": "스피커",
+			"BrandCode": "ZZ",
+			"ProductName": "AXIS_C1410_Network_Mini_Speaker",
+			"ClassCodeKR": "H4131",
+			"ClassCodeINT": "14-01",
+			"ViewPoint": 0,
+			"Angle": 0,
+			"Illuminance": "000",
+			"RegisteredNumber": "3010751430000",
+			"Packaging": "0"
+		},
+		{
+			"ImageID": "NW_2022_3010751430000_100_000_045_060_000",
+			"Filename": "D:/TTA_sample/IT/H4131_스피커/스피커_AXIS_C1410_Network_Mini_Speaker/3010751430000/100_000_045_060_000.jpg",
+			"AcquisitionMethod": "1",
+			"ProductID": "스피커",
+			"BrandCode": "ZZ",
+			"ProductName": "AXIS_C1410_Network_Mini_Speaker",
+			"ClassCodeKR": "H4131",
+			"ClassCodeINT": "14-01",
+			"ViewPoint": 60,
+			"Angle": 45,
+			"Illuminance": "000",
+			"RegisteredNumber": "3010751430000",
+			"Packaging": "0"
+		},
+		{
+			"ImageID": "NW_2022_3010751430000_100_000_045_315_000",
+			"Filename": "D:/TTA_sample/IT/H4131_스피커/스피커_AXIS_C1410_Network_Mini_Speaker/3010751430000/100_000_045_315_000.jpg",
+			"AcquisitionMethod": "1",
+			"ProductID": "스피커",
+			"BrandCode": "ZZ",
+			"ProductName": "AXIS_C1410_Network_Mini_Speaker",
+			"ClassCodeKR": "H4131",
+			"ClassCodeINT": "14-01",
+			"ViewPoint": 315,
+			"Angle": 45,
+			"Illuminance": "000",
+			"RegisteredNumber": "3010751430000",
+			"Packaging": "0"
+		}
+	]
+}

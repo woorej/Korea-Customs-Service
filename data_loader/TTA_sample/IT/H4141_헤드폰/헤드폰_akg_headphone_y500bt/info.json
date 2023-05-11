@@ -1,0 +1,64 @@
+{
+	"data": [
+		{
+			"ImageID": "NW_2022_3009862070000_100_000_000_000_000",
+			"Filename": "D:/TTA_sample/IT/H4141_헤드폰/헤드폰_akg_headphone_y500bt/3009862070000/100_000_000_000_000.jpg",
+			"AcquisitionMethod": "1",
+			"ProductID": "헤드폰",
+			"BrandCode": "ZZ",
+			"ProductName": "akg_headphone_y500bt",
+			"ClassCodeKR": "H4141",
+			"ClassCodeINT": "14-01",
+			"ViewPoint": 0,
+			"Angle": 0,
+			"Illuminance": "000",
+			"RegisteredNumber": "3009862070000",
+			"Packaging": "0"
+		},
+		{
+			"ImageID": "NW_2022_3009862070000_100_000_000_285_000",
+			"Filename": "D:/TTA_sample/IT/H4141_헤드폰/헤드폰_akg_headphone_y500bt/3009862070000/100_000_000_285_000.jpg",
+			"AcquisitionMethod": "1",
+			"ProductID": "헤드폰",
+			"BrandCode": "ZZ",
+			"ProductName": "akg_headphone_y500bt",
+			"ClassCodeKR": "H4141",
+			"ClassCodeINT": "14-01",
+			"ViewPoint": 285,
+			"Angle": 0,
+			"Illuminance": "000",
+			"RegisteredNumber": "3009862070000",
+			"Packaging": "0"
+		},
+		{
+			"ImageID": "NW_2022_3009862070000_100_000_045_060_000",
+			"Filename": "D:/TTA_sample/IT/H4141_헤드폰/헤드폰_akg_headphone_y500bt/3009862070000/100_000_045_060_000.jpg",
+			"AcquisitionMethod": "1",
+			"ProductID": "헤드폰",
+			"BrandCode": "ZZ",
+			"ProductName": "akg_headphone_y500bt",
+			"ClassCodeKR": "H4141",
+			"ClassCodeINT": "14-01",
+			"ViewPoint": 60,
+			"Angle": 45,
+			"Illuminance": "000",
+			"RegisteredNumber": "3009862070000",
+			"Packaging": "0"
+		},
+		{
+			"ImageID": "NW_2022_3009862070000_100_000_045_315_000",
+			"Filename": "D:/TTA_sample/IT/H4141_헤드폰/헤드폰_akg_headphone_y500bt/3009862070000/100_000_045_315_000.jpg",
+			"AcquisitionMethod": "1",
+			"ProductID": "헤드폰",
+			"BrandCode": "ZZ",
+			"ProductName": "akg_headphone_y500bt",
+			"ClassCodeKR": "H4141",
+			"ClassCodeINT": "14-01",
+			"ViewPoint": 315,
+			"Angle": 45,
+			"Illuminance": "000",
+			"RegisteredNumber": "3009862070000",
+			"Packaging": "0"
+		}
+	]
+}
