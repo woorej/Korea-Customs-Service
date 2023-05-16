@@ -4,6 +4,7 @@ import shutil
 from typing import List
 from tqdm import tqdm
 import numpy as np
+import re
 
 class Augmentation() :
     def __init__(self, collections: List, folder_path: str) :
@@ -50,8 +51,20 @@ class Augmentation() :
                 # aug_file_name -> 파일이름 변경
                 aug_folder_wtih_file = os.path.join(aug_folder,aug_file_name)
                 shutil.copyfile(folder_path_with_file, aug_folder_wtih_file)
-     
-     
+                
+    # '''
+    # 원본에서 복사해온 이미지 삭제
+    # '''
+    # def delete_prvious_image(self) -> None :
+    # # 정규 표현식 XXX_XXX_XXX_XXX_XXX.jpg
+    #     crawling_pattern = r'^10\{1}_\d{3}_\d{3}_\d{3}_\d{3}\.jpg$' # 100_000_000_000_000.jpg의 이미지를 가질 확률이 이음.
+    #     for aug_folder in tqdm(self.aug_folder_list, desc="delete_prvious_image", ncols=110, ascii = ' =', position=0)  :
+    #         folder_files = os.listdir(aug_folder)
+    #         for folder_file in tqdm(folder_files, ncols=110,ascii = ' =', position=1, leave=False) :
+    #             if not re.match(crawling_pattern, folder_file):
+    #                 #print(f"{os.path.join(aug_folder, folder_file)} Deleted")
+    #                 os.remove(os.path.join(aug_folder, folder_file))
+
     '''
     이미지 조도 조절
     '''
@@ -87,14 +100,14 @@ class Augmentation() :
                     new_image_name = f"{lhs}{illumin:03}{rhs}" # 이미지 이름
                     image_path_with_name = os.path.join("/".join(aug_folder_path_with_image.split('/')[:-1]), new_image_name) # 최종 경로 만들기
                     cv2.imwrite(image_path_with_name, output_image) 
-                # 원본이미지 삭제
+                #원본이미지 삭제
                 if os.path.isfile(aug_folder_path_with_image):
                     os.remove(aug_folder_path_with_image)
-                else :
-                    print(f"{aug_folder_path_with_image} can not remove")
-                    # cv2.imshow("1", output_image)
-                    # cv2.waitKey(0)
-                    # cv2.destroyAllWindows()
+                # else :
+                #     print(f"{aug_folder_path_with_image} can not remove")
+                #     cv2.imshow("1", output_image)
+                #     cv2.waitKey(0)
+                #     cv2.destroyAllWindows()
     
     '''
     이미지 회전
@@ -171,7 +184,8 @@ if __name__=="__main__" :
     augmentation_crawling = Augmentation(collections=target,folder_path="./미분류_검수완료" ) # 객체 생성
     augmentation_crawling.make_augfolder_structure() # 폴더구조 만들기
     augmentation_crawling.copy_paste_image_to_augfolder() # 만든 폴더에 이미지 복붙
-    augmentation_crawling.adjust_illuminance_image(illuminance_ratioes=[0.5, 1, 1.25]) # 조도 조절
+    augmentation_crawling.adjust_illuminance_image(illuminance_ratioes=[0.5, 1, 1.25]) # 조도 조절 및 원본 이미지 삭제
     augmentation_crawling.rotate_image(rotates=[0, 45, 90, 135, 180, 225, 270, 315]) # 회전
     augmentation_crawling.mask_image(masks=[0, 3, 4]) # 마스킹 처리
+    print(f"Finished!!")
     
