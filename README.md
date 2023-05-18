@@ -6,7 +6,7 @@ This code is example for training with multiple GPUs using the ResNet50 model.
 This code implementation that modifies the DDP of SimCLR to support distributed training on GPUs with different way to running on other gpus model(ex. rtx4090).
 # organized by Korea Customs Service
 ## Json Handler (Linux)
-data_loader: Data Handler from AI task organized by Korea Customs Service
+Data Handler from AI task organized by Korea Customs Service
 ## Augmentation (Window, Linux)
 image Augmentation for preprocessing
 ## Folder_Controller (window, Linux)
