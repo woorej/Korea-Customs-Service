@@ -8,8 +8,6 @@ This code implementation that modifies the DDP of SimCLR to support distributed 
 ## Json Handler (Linux)
 data_loader: Data Handler from AI task organized by Korea Customs Service
 ## Augmentation (Window, Linux)
-augmentation_linux: image Augmentation for preprocessing for Linux  
-augmentation_window: image Augmentation for preprocessing for Window
+image Augmentation for preprocessing
 ## Folder_Controller (window, Linux)
-folder_controller_linux.py: make normalized folder structure for Linux  
-folder_controller_window.py: make normalized folder structure for Window
+make normalized folder structure
